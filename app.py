@@ -21,8 +21,7 @@ if params.get("name"):
 st.write(f"Hello `{st.session_state['name']}`, these are your URL parameters:")
 st.write(params)
 
-checker = st.checkbox("Checkbox",
-                      key="is_checked")
+checker = st.checkbox("Checkbox", key="is_checked")
 
 st.write('Checked?', st.session_state["is_checked"])
 
